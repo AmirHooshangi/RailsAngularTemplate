@@ -50,6 +50,7 @@ group :test, :development do
   gem "database_cleaner"
   gem "selenium-webdriver"
   gem 'teaspoon'
+  gem "torquebox", "4.0.0.alpha1"
   gem 'phantomjs'
 end
 
