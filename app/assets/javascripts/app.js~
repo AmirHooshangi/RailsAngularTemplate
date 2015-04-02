@@ -1,0 +1,9 @@
+ amir_ng = angular.module('amir_ng',['ngRoute']);
+
+ module.config(['$routeProvider',
+        function($routeProvider) {
+            $routeProvider.
+                when('/templates/test', {
+                    templateUrl: '/templates/test',
+                })
+        }]);
