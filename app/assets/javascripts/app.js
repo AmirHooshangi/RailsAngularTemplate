@@ -3,7 +3,7 @@ var module  = angular.module('sampleApp',['ngRoute']);
 module.config(['$routeProvider',
         function($routeProvider) {
             $routeProvider.
-                when('/templates/test', {
+                when('/asghar', {
                     templateUrl: '/templates/test'
                 });
      }]);
